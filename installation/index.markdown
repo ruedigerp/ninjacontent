@@ -35,7 +35,7 @@ that's all. :-)
 
 #### Directory and file overview
 
-    |____CHANGELOG
+    |____CHANGELOG.md
     |____contentninja.pl
     |____lib
     | |____SPP.pm
@@ -44,36 +44,45 @@ that's all. :-)
     | |____Codeblock.pm
     | |____Gallery.pm
     | |____Youtube.pm
-    |____ninja.config
     |____README.md
-    |____source
-    | |_____includes
-    | | |____footer.html
-    | | |____jasonlong.html
-    | |_____layout
-    | | |____jasonlong.html
-    | |____configuration
-    | | |____configfile.markdown
-    | | |____index.markdown
-    | | |____layout.markdown
-    | | |____yourfirstpage.markdown
-    | |____download
-    | | |____index.markdown
-    | |____images
-    | | |____body-bg.png
-    | | |____highlight-bg.jpg
-    | | |____hr.png
-    | | |____octocat-icon.png
-    | | |____tar-gz-icon.png
-    | | |____zip-icon.png
+    |____themes
+    | |____jasonlong
+    | | |_____includes
+    | | | |____footer.html
+    | | | |____jasonlong.html
+    | | |_____layout
+    | | | |____jasonlong.html
+    | | |____themefiles
+    | | | |____images
+    | | | | |____body-bg.png
+    | | | | |____highlight-bg.jpg
+    | | | | |____hr.png
+    | | | | |____ninja.png
+    | | | | |____octocat-icon.png
+    | | | | |____sidebar_hr.png
+    | | | | |____tar-gz-icon.png
+    | | | | |____zip-icon.png
+    | | | |____stylesheets
+    | | | | |____print.css
+    | | | | |____pygment_trac.css
+    | | | | |____screen.css
+    | | | | |____stylesheet.css
+
+
+#### Content directory "source"
+
+Example directory structure for a test homepage:
+
+    |____about
     | |____index.markdown
-    | |____installation
-    | | |____index.markdown
-    | |____stylesheets
-    | | |____print.css
-    | | |____pygment_trac.css
-    | | |____screen.css
-    | | |____stylesheet.css
+    | |____impressum.markdown
+    | |____team.markdown
+    |____download
+    | |____index.markdown
+    |____index.markdown
+    |____gallery
+    | |____index.markdown
+    |____ninja.config
 
 
 
