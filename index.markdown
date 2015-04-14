@@ -7,6 +7,7 @@ comments: false
 author: John Smith
 profile: 107224552229621877852
 image: 
+menu: / Home
 categories: 
   - categorie1
 tags:
