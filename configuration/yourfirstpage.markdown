@@ -17,6 +17,7 @@ Create the directory "source" a new file "index.markdown" with the following con
     date: 2015-04-11 00:00:00
     author: John Smith
     profile: 107224552229621877852
+    menu: / Startpage
     published: true
     ---
     
