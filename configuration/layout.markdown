@@ -10,8 +10,9 @@ published: true
 ## The layout files
 
 The layout files are in the directory "theme/yourtheme/_layout". Here is an example "default.html":
-    
-    { % include head.html %}
+
+{% codeblock %} 
+    {% include head.html %}
     </head>
     <body>
     <div id="top">
@@ -23,7 +24,7 @@ The layout files are in the directory "theme/yourtheme/_layout". Here is an exam
             <div id="main">
               <div class="blog-index">
                 <div class="new_post" itemprop="mainContentOfPage" itemtype="http://schema.org/Article" itemscope="" >
-                  { % content %}
+                  {% content %}
                 </div>
               </div>
             </div>
@@ -33,6 +34,7 @@ The layout files are in the directory "theme/yourtheme/_layout". Here is an exam
     </div>
     </body>
     </html>
+{% endcodeblock %} 
 
 ### Includes 
 
