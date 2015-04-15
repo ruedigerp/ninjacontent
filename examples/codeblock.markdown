@@ -9,12 +9,9 @@ published: true
 ---
 
 {% codeblock %}
-
 {% gallery %}
 edimaxew7811.jpg: wlan stuff
 Pi1.png: Raspberry stuff
 {% endgallery %}
-
-
 {% endcodeblock %}
 
