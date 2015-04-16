@@ -21,6 +21,8 @@ published: true
 
 ### Example Gallery Code
 
-{% includecode 1:gallery/index.code %}
+Code of this page:
+
+{% includecode 1:gallery/index.markdown %}
 
 
