@@ -6,8 +6,8 @@ comtec: 20115-04-11
 comments: false
 author: John Smith
 profile: 107224552229621877852
-image: 
 menu: / Home
+image: 
 categories: 
   - categorie1
 tags:

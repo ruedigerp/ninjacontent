@@ -1,0 +1,22 @@
+    { % include head.html %}
+    </head>
+    <body>
+    <div id="top">
+      <div id="header">
+        { % include menu.html %}
+        <div id="wrap">
+          <img src="/themefiles/images/content-top.gif" alt="content top" class="content-wrap" />
+          <div id="content">
+            <div id="main">
+              <div class="blog-index">
+                <div class="new_post" itemprop="mainContentOfPage" itemtype="http://schema.org/Article" itemscope="" >
+                  { % content %}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+    </html>

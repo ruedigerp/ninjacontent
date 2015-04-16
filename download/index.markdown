@@ -11,6 +11,7 @@ published: true
 Download on Github.com
 
   * [Git](https://github.com/ruedigerp/ContentNinja.git)
+	
   * [Zip](https://github.com/ruedigerp/ContentNinja/archive/master.zip)
 
 

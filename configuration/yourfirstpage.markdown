@@ -7,23 +7,13 @@ profile: 107224552229621877852
 published: true
 ---
 
+{% include configuration/navigation.html %}
+
 ## Create file for your first page
 
 Create the directory "source" a new file "index.markdown" with the following content:
 
-    ---
-    layout: default
-    title: "Your First Page"
-    date: 2015-04-11 00:00:00
-    author: John Smith
-    profile: 107224552229621877852
-    menu: / Startpage
-    published: true
-    ---
-    
-    ## header H2 
-    
-    text text text usw. 
+{% includecode 1:configuration/firstpage.code %}
 
 The first part between the two "---" is the header of a page. So things like Title, Date, etc. set.
 

@@ -7,34 +7,14 @@ profile: 107224552229621877852
 published: true
 ---
 
+{% include configuration/navigation.html %}
+
 ## The layout files
 
 The layout files are in the directory "theme/yourtheme/_layout". Here is an example "default.html":
+    
+{% includecode 1:configuration/layout.code %}
 
-{% codeblock %} 
-    {% include head.html %}
-    </head>
-    <body>
-    <div id="top">
-      <div id="header">
-        {% include menu.html %}
-        <div id="wrap">
-          <img src="/themefiles/images/content-top.gif" alt="content top" class="content-wrap" />
-          <div id="content">
-            <div id="main">
-              <div class="blog-index">
-                <div class="new_post" itemprop="mainContentOfPage" itemtype="http://schema.org/Article" itemscope="" >
-                  {% content %}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </body>
-    </html>
-{% endcodeblock %} 
 
 ### Includes 
 
@@ -56,16 +36,8 @@ Includes also be used for the layout of content. In the header of a page is the 
 
 Here layout of our content areas:
 
-    <h3 class="title"><a href="{{ posturl }}" title="screen und git">{{ title }}</a></h3>
-    <div class="postcontent">
-      <div class="entry-content">
-        {% content %}
-        <br /> <br />
-      </div>
-    </div>
-    <div class="post_info">
-      <time datetime="{{ postdate }}" pubdate data-updated="true"></time> {{ postdate }}
-    </div>
+{% includecode 2:configuration/contentarea.code %}
+
 
 This part is currently still a little confusing. Internal are the two variables "content" used. 
 When you generate a page is the content of a page loaded in content and then replaced in the include directory for layout instead of content.

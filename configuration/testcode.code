@@ -1,0 +1,22 @@
+
+
+## Test Code per Include
+
+sdfg 
+dsfg 
+sdfg 
+sdfg 
+sdfg 
+sdfg 
+sdfg 
+
+{% includecode 1:example/file1.code %}
+
+{% codeblock %}
+
+$var = "foo";
+printf ("Value: %s\n", $foo);
+
+{% endcodeblock %}
+
+

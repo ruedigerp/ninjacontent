@@ -1,0 +1,10 @@
+    <h3 class="title"><a href="{{ posturl }}" title="screen und git">{{ title }}</a></h3>
+    <div class="postcontent">
+      <div class="entry-content">
+        {% content %}
+        <br /> <br />
+      </div>
+    </div>
+    <div class="post_info">
+      <time datetime="{{ postdate }}" pubdate data-updated="true"></time> {{ postdate }}
+    </div>
