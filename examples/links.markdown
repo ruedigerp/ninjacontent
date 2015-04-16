@@ -1,0 +1,12 @@
+
+[Linktext 1](http://contentninja.services)
+[Linktext 2](http://saas.contentninja.services)
+
+or:
+
+Here are some links to other pages. [ContentNinja] [1] and [ContentNinja Saas] [2]
+
+  [1]: http://contentninja.services        "ContentNinja"
+  [2]: http://saas.contentninja.services   "Saas"
+
+
