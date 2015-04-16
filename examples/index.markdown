@@ -81,8 +81,7 @@ Pi1.png: Raspberry stuff
 
 *Result:*
 
-[Linktext 1](http://contentninja.services)
-[Linktext 2](http://saas.contentninja.services)
+[ContentNinja](http://contentninja.services) and [ContentNinja Saas](http://saas.contentninja.services)
 
 or: 
 
@@ -91,9 +90,6 @@ Here are some links to other pages. [ContentNinja] [1] and [ContentNinja Saas] [
   [1]: http://contentninja.services        "ContentNinja"
   [2]: http://saas.contentninja.services   "Saas"
 
-[]()
-[]()
-[]()
 
 ##### View sourcecode of this site
 
