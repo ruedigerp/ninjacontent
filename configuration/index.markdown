@@ -147,7 +147,7 @@ Unused.
 
 Unused. 
 
-    lin = /path/to/lib 
+    lib = /path/to/lib 
 
 ### source 
 
