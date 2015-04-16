@@ -11,6 +11,7 @@ published: true
 
 The Content Ninja configuration files named: ninja.config. 
 
+{% codeblock %}
     remoteurl = http://www.example.com
     localurl = http://localhost
     
@@ -35,6 +36,7 @@ The Content Ninja configuration files named: ninja.config.
     theme = jasonlong
     
     debug = 0
+{% endcodeblock %}
 
 
 ## Detail information for the configfile
