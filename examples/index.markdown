@@ -77,7 +77,7 @@ Pi1.png: Raspberry stuff
 
 ##### View sourcecode of this site
 
-[sourcecode](/examples/indexcode.markdown)
+[sourcecode](/examples/indexcode.html)
 
 
 
