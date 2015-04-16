@@ -74,10 +74,17 @@ Pi1.png: Raspberry stuff
 /gallery/15723733583_b4a7b52459_b.jpg: Pudacuo (OsvinC)
 {% endgallery %}
 
+### Youtube video
+
+{% includecode 8:examples/youtube.code %}
+
+*Result:*
+
+{% youtube 4tzhyfWHdLo %}
 
 ### Links
 
-{% includecode 8:examples/links.code %}
+{% includecode 9:examples/links.code %}
 
 *Result:*
 
