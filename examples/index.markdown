@@ -43,3 +43,14 @@ Pi1.png: Raspberry stuff
 {% endgallery %}
 {% endcodeblock %}
 
+### Include code from file
+
+{% includecode 4:examples/includecode1.code %}
+
+*Result:*
+
+{% includecode 5:examples/includecode.code %}
+
+
+
+

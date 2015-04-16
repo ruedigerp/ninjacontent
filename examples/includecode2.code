@@ -1,0 +1,14 @@
+
+php:
+<?PHP echo phpinfo(); ?>
+
+perl example: 
+
+foreach (sort @keys) {
+	printf ("Value: %s\n", $_);
+}
+
+contentninja include code: 
+
+{% includecode 4:examples/includecode.code %}
+
