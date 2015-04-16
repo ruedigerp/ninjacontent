@@ -17,7 +17,7 @@ The layout files are in the directory "theme/yourtheme/_layout". Here is an exam
     <body>
     <div id="top">
       <div id="header">
-        { % include menu.html %}
+        {% include menu.html %}
         <div id="wrap">
           <img src="/themefiles/images/content-top.gif" alt="content top" class="content-wrap" />
           <div id="content">
