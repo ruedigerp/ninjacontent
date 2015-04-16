@@ -45,7 +45,7 @@ Pi1.png: Raspberry stuff
 
 ### Include code from file
 
-{% includecode 4:examples/includecode1.code %}
+{% includecode 4:examples/includecode2.code %}
 
 *Result:*
 
