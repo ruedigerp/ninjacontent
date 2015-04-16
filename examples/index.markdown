@@ -63,7 +63,7 @@ Pi1.png: Raspberry stuff
 
 ### Gallery 
 
-{% includecode 7:examples/includecode.code %}
+{% includecode 7:examples/gallery.code %}
 
 *Result:*
 
