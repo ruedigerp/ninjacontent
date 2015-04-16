@@ -74,13 +74,23 @@ For this purpose, remoteUrl and localurl used to switch between live and test pa
 
 ### site.title 
 
-    site.title = Page Title
+    sitetitle = Page Title
 
 Set the page Title in head or can replaced in templates.
 
 Template: 
 
-    {% site.title %}
+    {% sitetitle %}
+
+### site.title 
+
+    sitesubtitle = Subtitle
+
+Set the page Title in head or can replaced in templates.
+
+Template: 
+
+    {% sitesubtitle %}
 
 ### site.author 
 
