@@ -51,6 +51,27 @@ Pi1.png: Raspberry stuff
 
 {% includecode 5:examples/includecode2.code %}
 
+### List 
 
+{% includecode 6:examples/list.code %}
+
+*Result:*
+
+  * one
+  * two
+  * three
+
+### Gallery 
+
+{% includecode 7:examples/includecode.code %}
+
+*Result:*
+
+% gallery %}
+15783866983_27160395b9_b.jpg: Rodeo Dusk (_JonathanMitchellPhotography_)
+10346743894_0cfda8ff7a_b.jpg: Les papillons ont du chagrin (JMS')
+14395875498_c43e5c4415_b.jpg: Chedder Gorge with goats looking (Si Photography)
+15723733583_b4a7b52459_b.jpg: Pudacuo (OsvinC)
+{% endgallery %}
 
 
