@@ -75,3 +75,9 @@ Pi1.png: Raspberry stuff
 {% endgallery %}
 
 
+##### View sourcecode of this site
+
+[sourcecode](/examples/indexcode.markdown)
+
+
+
