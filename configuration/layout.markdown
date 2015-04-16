@@ -56,7 +56,6 @@ Includes also be used for the layout of content. In the header of a page is the 
 
 Here layout of our content areas:
 
-{% codeblock %} 
     <h3 class="title"><a href="{{ posturl }}" title="screen und git">{{ title }}</a></h3>
     <div class="postcontent">
       <div class="entry-content">
@@ -67,7 +66,6 @@ Here layout of our content areas:
     <div class="post_info">
       <time datetime="{{ postdate }}" pubdate data-updated="true"></time> {{ postdate }}
     </div>
-{% endcodeblock %} 
 
 This part is currently still a little confusing. Internal are the two variables "content" used. 
 When you generate a page is the content of a page loaded in content and then replaced in the include directory for layout instead of content.
