@@ -8,6 +8,34 @@ menu: /examples/codeblock.html Codeblock
 published: true
 ---
 
+### Header
+
+{% includecode 1:examples/header.code %}
+
+*Result:*
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
+### Bold and underline 
+
+{% includecode 2:examples/bold.code %}
+
+*Result:*
+
+Here is *bold* text. 
+And now _underlined_ test.
+
+### Codeblock
+
+{% includecode 3:examples/codeblock.code %}
+
+*Result:*
+
 {% codeblock %}
 {% gallery %}
 edimaxew7811.jpg: wlan stuff
