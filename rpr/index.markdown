@@ -11,7 +11,7 @@ published: true
 ### Example Gallery
 
 {% gallery %}
-IMG_1902.jpg: Rüdiger Pretzlaff
+rpr/IMG_1902.jpg: Rüdiger Pretzlaff
 {% endgallery %}
 
 
