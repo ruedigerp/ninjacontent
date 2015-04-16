@@ -1,14 +1,30 @@
+package SPP;
+use vars qw($VERSION @ISA @EXPORT);
+require Exporter;
+our $VERSION = "0.8.5";
 
-php:
-<?PHP echo phpinfo(); ?>
+use Cwd;
+use LWP::Simple;
+use File::Copy qw(move);
+use File::Basename;
+use File::Path qw(remove_tree);
+use Term::ANSIColor;
+use Data::Dumper;
+use Module::Find;
+use Text::Markdown 'markdown';
+use File::Copy::Recursive qw(dircopy);
+use Archive::Tar;
+use File::Find::Rule;
+use Cwd;
 
-perl example: 
-
-foreach (sort @keys) {
-	printf ("Value: %s\n", $_);
+sub new{
+  my $class = shift;
+  my $self = {
+    "menu" => undef,
+  };
+  bless $self, $class;
+  $self->readconfig();
+  # rmtree(public);
+  remove_tree( "public" );
+  return $self;
 }
-
-contentninja include code: 
-
-{% includecode 4:examples/includecode.code %}
-
