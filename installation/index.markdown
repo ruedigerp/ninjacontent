@@ -14,11 +14,15 @@ Clone the git repository:
 
     git clone git@github.com:ruedigerp/ContentNinja.git
 
-or download the [ZIP-File](https://github.com/ruedigerp/ContentNinja/archive/master.zip) 
+#### or download the [ZIP-File](https://github.com/ruedigerp/ContentNinja/archive/master.zip) 
 
     unzip master.zip
 
-Change to the directory Content Ninja
+#### Install with homebrwe on OS X
+
+    brew install https://raw.githubusercontent.com/contentninjaservices/homebrew/master/contentninja.rb
+
+#### Change to the directory Content Ninja
 
     cd ContentNinja-master 
     
