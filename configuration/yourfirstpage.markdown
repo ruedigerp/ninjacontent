@@ -1,6 +1,6 @@
 ---
 layout: jasonlong
-title: "Your First Page"
+title: "Deiner erste Seite"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
@@ -9,23 +9,26 @@ published: true
 
 {% include configuration/navigation.html %}
 
-## Create file for your first page
+## Erstelle eine Datei für die erste Seite. 
 
-Create the directory "source" a new file "index.markdown" with the following content:
+Erstelle ein Verzeichnis "source" und da drin eine Datei "index.markdown" mit folgenden Inhalt: 
 
 {% includecode 1:configuration/firstpage.code %}
 
-The first part between the two "---" is the header of a page. So things like Title, Date, etc. set.
+Der erste Teile zwischen den beiden "---" ist der Kopf einer Datei. Er enthält Daten wie Tile, Datum usw. 
 
-With the "layout" is defined which layout is used. Thus, the appropriate layout file is loaded from the "source/_layout". More on that later.
+Mit dem Parameter `layout` wird das benutzte Layout ausgewählt. Das Layout ist gespeichert in "theme/YourTheme/\_layout".
+Mehr dazu später.
 
-"published" can be set to true or false. New files can thus be set to not be published. The page can thus be neugeniert without this page is published with. Is on one side of a fault can also disable it so, and only turn back online after the correction.
+Der Parameter `published` kann auf `true` oder `false` gesetzt werden. Fügt man neue Seiten hinzu, kann man die erst einmal auf `false` satzen. Dann werden sie beim neugenerieren der Internetseite nicht erstellt. Kann dazu benutzt werden wenn Texte noch nicht fertig sind oder erst noch korrektur gelesen werden sollen. 
 
-The parameter "profile" indicates the Google+ Profiles of the author. Is specified in the template one side author may be associated with it. This causes the image of the author in the results on a Google search will be displayed.
+Muss man in einem Text nach der Veröffentlichung einen Fehler beseitigen und die einzelne Seite soll in dieser Zeit nicht online sein, kann man einfach `published: false` setzen. 
 
-All other parameters in the header part are self-explanatory and need not be further described.
+Der Parameter `profile` meint das Google+ Profile des Autors der Seite. Im Layout wird es mit dem Autor des Inhalts verknüpft. In den Google Suchergebnissen wird dann das Profilbild des Google+ Profiles angezeigt. 
 
-The content area is described later. Then the Formateirungsmöglichkeiten in Markdown be described.
+Alle anderen Parameter im Kopfbereich erklären sich selbst und werden nicht weiter beschrieben. 
 
-Next step is the [layout](/configuration/layout.html).
+Der Bereich mit dem Inhalt wird später beschrieben. Dann werden auch die Formatierungsmöglichkeiten mit Markdown beschrieben. 
+
+Nächster Schritt ist das [Layout](/configuration/layout.html).
 

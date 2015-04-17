@@ -8,36 +8,36 @@ menu: /installation Installation
 published: true
 ---
 
-#### Content Ninja installation
+#### ContentNinja installieren.
 
-Clone the git repository:
+Das Git Repository klonen:
 
-    git clone git@github.com:ruedigerp/ContentNinja.git
+    git clone https://github.com/contentninjaservices/contentninja.git
 
-#### or download the [ZIP-File](https://github.com/ruedigerp/ContentNinja/archive/master.zip) 
+#### oder das [ZIP-File](https://github.com/contentninjaservices/contentninja/archive/master.zip) herunterladen
 
     unzip master.zip
 
-#### Install with homebrew on OS X
+#### Installtion mit Homebrew am Mac 
 
     brew install https://raw.githubusercontent.com/contentninjaservices/homebrew/master/contentninja.rb
 
-#### Change to the directory Content Ninja
+#### Ins Verzeichnis wechseln 
 
     cd ContentNinja-master 
     
 
-#### Generate your first Page
+#### Deine Seite generieren
 
     perl contentninja.pl 
 
-that's all. :-) 
+Das ist alles  :-) 
 
-#### Configuration step by step 
+#### Konfiguration Step by Step
 
-[Read](/configuration) the configuration pages.
+[lese](/configuration) Seiten zur Konfiguration von ContentNinja..
 
-#### Directory and file overview
+#### Verzeichnis- und Dateiübersicht
 
     |____contentninja.pl
     |____lib

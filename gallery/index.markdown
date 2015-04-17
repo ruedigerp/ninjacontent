@@ -4,12 +4,12 @@ title: "Gallery"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
-menu: /gallery Test-Gallery
+menu: /gallery Test-Gallerie
 published: true
 ---
 
 
-### Example Gallery
+### Beispiel Gallerie
 
 {% gallery %}
 15783866983_27160395b9_b.jpg: Rodeo Dusk (_JonathanMitchellPhotography_)
@@ -19,9 +19,9 @@ published: true
 {% endgallery %}
 
 
-### Example Gallery Code
+### Beispiel Gallerie Markdown
 
-Code of this page:
+Code dieser Seite:
 
 {% includecode 1:gallery/index.markdown %}
 

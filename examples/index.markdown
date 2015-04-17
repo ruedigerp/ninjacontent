@@ -1,18 +1,18 @@
 ---
 layout: jasonlong
-title: "Examples"
+title: "Beispiele"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
-menu: /examples/ Examples
+menu: /examples/ Beispiele
 published: true
 ---
 
-### Header
+### Überschriften
 
 {% includecode 1:examples/header.code %}
 
-*Result:*
+*Ergenis:*
 
 # H1
 ## H2
@@ -21,20 +21,20 @@ published: true
 ##### H5
 ###### H6
 
-### Bold and underline 
+### Fett und unterstrichen 
 
 {% includecode 2:examples/bold.code %}
 
-*Result:*
+*Ergebnis:*
 
-Here is *bold* text. 
-And now _underlined_ test.
+Hier ist *fetter* Text. 
+And nun _unterstrichener_ Text.
 
 ### Codeblock
 
 {% includecode 3:examples/codeblock.code %}
 
-*Result:*
+*Ergebnis:*
 
 {% codeblock %}
 {% gallery %}
@@ -43,29 +43,29 @@ Pi1.png: Raspberry stuff
 {% endgallery %}
 {% endcodeblock %}
 
-### Include code from file
+### Code aus Datei einfügen
 
 {% includecode 4:examples/includecode.code %}
 
-*Result:*
+*Ergebnis:*
 
 {% includecode 5:examples/includecode2.code %}
 
-### List 
+### Listen 
 
 {% includecode 6:examples/list.code %}
 
-*Result:*
+*Ergebnis:*
 
   * one
   * two
   * three
 
-### Gallery 
+### Gallerie
 
 {% includecode 7:examples/gallery.code %}
 
-*Result:*
+*Ergebnis:*
 
 {% gallery %}
 /gallery/15783866983_27160395b9_b.jpg: Rodeo Dusk (_JonathanMitchellPhotography_)
@@ -78,7 +78,7 @@ Pi1.png: Raspberry stuff
 
 {% includecode 8:examples/youtube.code %}
 
-*Result:*
+*Ergebnis:*
 
 {% youtube 4tzhyfWHdLo %}
 
@@ -86,7 +86,7 @@ Pi1.png: Raspberry stuff
 
 {% includecode 9:examples/links.code %}
 
-*Result:*
+*Ergebnis:*
 
 [ContentNinja](http://contentninja.services) and [ContentNinja Saas](http://saas.contentninja.services)
 
@@ -98,7 +98,7 @@ Here are some links to other pages. [ContentNinja] [1] and [ContentNinja Saas] [
   [2]: http://saas.contentninja.services   "Saas"
 
 
-##### View sourcecode of this site
+##### Den Code dieser Seite angucken
 
 [sourcecode](/examples/indexcode.html)
 

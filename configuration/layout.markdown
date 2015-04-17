@@ -1,6 +1,6 @@
 ---
 layout: jasonlong
-title: "Layout files"
+title: "Layout Dateien"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
@@ -9,40 +9,43 @@ published: true
 
 {% include configuration/navigation.html %}
 
-## The layout files
+## Die Layout Dateien
 
-The layout files are in the directory "theme/yourtheme/_layout". Here is an example "default.html":
-    
+Die Layout Dateien sind im Verzeichnis "theme/DeinLayout/\_layout" gespeichert. 
+Hier ist als Beispiel die Datei "default.html": 
+
 {% includecode 1:configuration/layout.code %}
 
 
 ### Includes 
 
-In the first row of the HTML header is loaded via include. This includes are located in the directory "theme/yourtheme/_include". Includes can load other includes.
-In head.html will include, for example, "theme/yourtheme/themefiles/css/screen.css". The "css/screen.css" is also stored in the directory "theme/yourtheme/_include".
+In dem Beispiel oben wird in der ersten Zeile ein Include benutzt. Includes werden asu dem Verzeichnis "theme/yourtheme/\_include" eingelesen.
+Includes können weitere Includes einfügen. 
 
-Furthermore, code in default.html normal HTML. In between is still a inlude the navigation area of the page.
+In der Datei "head.html" wird dann zum Beipspiel eine weitere Datei hinzugefügt. 
 
-In the section "your first page" when a header file Markdown for Content Ninja is described. 
+Zusätzlich wird in der Datei "head.html" noch die Navigation der Seite geladen. 
+
+Im Abschnitt "Deine erste Seite" wird der Inhalt einer ContentNinja Markdown Datei beschrieben. 
 
 ### Replace content and other variables
 
-The second part is the content part of a page. The part that is visible on the page later.
-This area will be inserted here. And is at the location of the { % content %}.
+Der zweite Teil in einer Markdown Datei ist der Bereich für den Inhalt einer Seite. 
+Also der Teil, den Besucher nachher auf der Internetseite sehen. 
+Im Layout wird dieser Bereich eingesetzt. Ersetzt damit die Variable "content".
+Im Layout wird diese Variable mit `{% content %}` benutzt. 
 
-### The layout from pages
+### Das Layout fon Seiten
 
-Includes also be used for the layout of content. In the header of a page is the parameter "layout: default.html". This file is loaded from the include folder.
+Includes können also dazu benutzt werden um das Layout der Seite zu steuern. 
+Im Kopf der Datei gibt es den Parameter "layout". Zum Beispiel "layout: default.html" und wird aus dem Ordner "theme/yourtheme/\_include" geladen.
 
-Here layout of our content areas:
+Im Standardlayout wird in "default.html" der eigentliche Bereich für die Inhalte in einer extra Datei ausgelagert. 
+Um in zu laden wird das oben erwähnte Inlude benutzt. 
+
+Hier der eigentlich Contentbereich als Beispiel: 
 
 {% includecode 2:configuration/contentarea.code %}
-
-
-This part is currently still a little confusing. Internal are the two variables "content" used. 
-When you generate a page is the content of a page loaded in content and then replaced in the include directory for layout instead of content.
-The result is stored. But then inserted in the entire page layout and content also means again. 
-That will change in a future version and then makes it easier to understand.
 
 
 

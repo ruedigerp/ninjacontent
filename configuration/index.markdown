@@ -1,6 +1,6 @@
 ---
 layout: jasonlong
-title: "Configuration"
+title: "Konfiguration"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
@@ -12,7 +12,7 @@ published: true
 
 ## Configuration file
 
-The Content Ninja configuration files named: ninja.config. 
+Das ContentNinja Konfigurationsdatei heisst: ninja.config.
 
     remoteurl = http://www.example.com
     localurl = http://localhost
@@ -42,12 +42,12 @@ The Content Ninja configuration files named: ninja.config.
 
 ## Detail information for the configfile
 
-Some parameters of the config file is not currently being used. 
-Content Ninja arose initially as blog software. 
-The blog part was removed, the once only pure websites with content Ninja could be created.
-The blog part is added after a cleanup of the source code again.
+Einige Paramter im Konfigurationfile werden aktuell nicht benutzt.
+ContentNinja wurde als Blogging-Software erstellt. 
+Der Teil für das Bloggen wurde entfernt, so das sich ContentNinja aktuell nur um das erstellen von Internetseiten kümmert. 
+Die Funktionen für das Bloggen werden aber später wieder hinzugefügt. 
 
-The following parameters are currently unused.
+Die folgenden Parameter werden aktuell nicht benutzt:
 
    * post.title post.content
    * comtec
@@ -62,21 +62,25 @@ The following parameters are currently unused.
 
     remoteurl = http://www.example.com
 
-Content Ninja can copy the finished website via ssh or rsync to a server. 
-For this purpose, remoteUrl and localurl used to switch between live and test page.
+ContentNinja kann die fertigen Seiten auf einen Server per ssh oder rsync kopieren. 
+Die kann zum Beispiel benutzt werden, wenn man die Seite erst auf test.domainname.de testen möchte
+und nach einem Test erst für alle unter www.domainname.de erreichbar machen möchte. 
+Dadurch werden die Links auf der Internetseite passend für die Test und Live Internetseite gesetzt.
 
 ### localurl
 
     localurl = http://localhost
 
-Content Ninja can copy the finished website via ssh or rsync to a server. 
-For this purpose, remoteUrl and localurl used to switch between live and test page.
+ContentNinja kann die fertigen Seiten auf einen Server per ssh oder rsync kopieren. 
+Die kann zum Beispiel benutzt werden, wenn man die Seite erst auf test.domainname.de testen möchte
+und nach einem Test erst für alle unter www.domainname.de erreichbar machen möchte. 
+Dadurch werden die Links auf der Internetseite passend für die Test und Live Internetseite gesetzt.
 
 ### site.title 
 
     sitetitle = Page Title
 
-Set the page Title in head or can replaced in templates.
+Setzt den Seitentitel im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
@@ -86,7 +90,7 @@ Template:
 
     sitesubtitle = Subtitle
 
-Set the page Title in head or can replaced in templates.
+Setzt den Seitenuntertitel im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
@@ -96,17 +100,17 @@ Template:
 
     site.author = John Smith
 
-Set the Author in the header and can replaced in templates.
+Setzt den Author im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
-    {% site.title %}
+    {% site.author %}
 
 ### site.email
 
     site.email = mail@example.com
 
-Set the email in the header and can replaced in templates.
+Setzt die E-Mailadresse im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
@@ -114,13 +118,13 @@ Template:
 
 ### post.title post.content
 
-Unused. Used by disabled Blog engine. 
+Unbenutzt, wird von der Blog-Engine benutzt
 
 ### site.url 
 
     site.url = http://www.example.com
 
-Set the Page URL in the header and can replaced in templates.
+Setzt die Seiten URL in den Sietenkopf und kann im Template setzte werden mit: 
 
 Template: 
 
@@ -130,75 +134,78 @@ Template:
 
     default_index = source/index.markdown
 
-The default index page. This is the first page that visitors see when they do not provide a direct path behind the URL.
+Die standard Seite. Diese Seite wird den Besuchern gezeigt wenn sie die Internetsiete aufrufen.
 
-s currently not used and enabled in a future version.
+Ist aktuell nicht benutzt und wird in einer zukünftigen Version wieder aktiviert.
 
 ### comtec 
 
     comtac = 0|1 
 
-comtec stands for: CommentTec, a commentary system for content ninja. 
-Since Content Ninja static page generated can enable comments with services like Disqus. 
-ComTec is a comment system which emerged as the comments should be on your own server. 
-In addition, the visitor accesses are not stored on the server from another vendor and recorded.
+comtec steht für: CommentTec, ein Kommentarsystem für ContentNinja. 
+ContentNinja generiert statische Internetseiten und kann keine dynamischen Inhalte bearbeiten. 
+Kommentare können aber mit Hilfe von z.B. Disqus.com ermöglicht werden.
+ComTec ist dann entstanden um die Daten der Besucher nicht auf Servern anderer Anbieter zu speichern.
+Die Daten bleiben mit ComTec auf dem eigenen Server. 
+Die Besucher können dann auch nicht von anderen Anbietern getracked werden. 
+Und die Daten liegen auch nicht auf den Servern eines Anbieters im Ausland. 
 
-ComTec was independently programmed and is not included in Content Ninja. 
-This can also be used with other blog systems.
-In the future Comtec is also published. It is not yet clear when.
+ComTec wird unabhängig von ContentNinja entwickelt. ComTec kann somit auch mit anderen Blogsystemen benutzt werden.
+In Zukunft wird ComTec auch veröffentlicht, wann genau kann aber noch nicht gesagt werden.
 
 ### bin	
 
-Unused. 
+Unbenutzt. 
 
     bin = /path/to/bin
 
 ### lib	
 
-Unused. 
+Unbenutzt. 
 
     lib = /path/to/lib 
 
 ### source 
 
 This directory contains a javascript, stylesheet, your pages etc.
-
-For further information, read the documentation at: your first page and on.
+Dieses Verzeichnis enthält die Inhalte der Seite (Markdowndateien), Javascripte, CSS-Stylesheets.
+Für weitere Informationen bitte die DoKumentation lesen. Abschnitt: "Deine erste Seite" und folgende. 
 
     source = source 
 
 ### posts	
 
-Unused. Blog Part :) 
+Unbenutzt. Blog Engine :) 
 
     posts = _posts 
 
 ### drafts 
 
-Unused. Blog Part :) 
+Unbenutzt. Blog Engine :) 
 
     drafts = _drafts
 
 ### stash	
 
-Unused. Blog Part :) 
+Unbenutzt. Blog Engine :) 
 
     stash	= _stash
 
 ### theme
 
+Wählt ein instaliertes Layout aus. 
+
     theme = jasonlong
 
-Selects an installed theme.
 
 ### debug 
 
-    debug = 0|1
-
 if debug = 1 is set to debug issues when generating pages.
+Wenn debug=1 gesetzt ist, werden Fehler ausgeben beim generieren. 
 
-Currently, only runtime values printed to check where the content Ninja generate very long takes.
-If you write your own modules should be set to 1 when debug test.
+Aktuell werden nur Laufzeitmeldungen ausgegben um die Zeit einzelner Steps beim generieren auszugeben. 
+Wer ein eigenes Modul schreibt sollte debug auf 1 setzen beim testen. 
 
+    debug = 0|1
 
 

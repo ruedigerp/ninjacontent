@@ -1,6 +1,6 @@
 ---
 layout: jasonlong
-title: "Download Content Ninja"
+title: "ContentNinja herunterladen"
 date: 2015-04-11 00:00:00
 author: John Smith
 profile: 107224552229621877852
@@ -8,11 +8,11 @@ menu: /download Download
 published: true
 ---
 
-Download on Github.com
+Von GitHub.com herunterladen: 
 
-  * [Git](https://github.com/ruedigerp/ContentNinja.git)
+  * [Git](https://github.com/contentninjaservices/contentninja.git)
 	
-  * [Zip](https://github.com/ruedigerp/ContentNinja/archive/master.zip)
+  * [Zip](https://github.com/contentninjaservices/contentninja/archive/master.zip)
 
 
 
