@@ -18,7 +18,7 @@ Clone the git repository:
 
     unzip master.zip
 
-#### Install with homebrwe on OS X
+#### Install with homebrew on OS X
 
     brew install https://raw.githubusercontent.com/contentninjaservices/homebrew/master/contentninja.rb
 
