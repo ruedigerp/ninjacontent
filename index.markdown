@@ -23,7 +23,7 @@ Der Server benötigt kein PHP, Perl, ASP.net, Python usw. und auch keine Datenba
 
 #### Worum ContentNinja?
 
-Viele Leute wollen eine Internetseite habe und haben keine Ahnung wie die ganze Software auf einem Server funktionieren. 
+Viele Leute wollen eine Internetseite haben und haben keine Ahnung wie die ganze Software auf einem Server funktionieren. 
 Wieso sollten sie? Sie wollen nur eine Internetseite. 
 Sie fragen jemanden der sich angeblich damit auskennt. Und erhalten dann: 
 
