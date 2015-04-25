@@ -13,6 +13,10 @@ published: true
 
 {% gallery 1:gallery/images1.gal %}
 
+### Beispiel Gallerie II 
+
+{% gallery 2:gallery/images2.gal %}
+
 ### Beispiel Gallerie Markdown
 
 Code dieser Seite:
