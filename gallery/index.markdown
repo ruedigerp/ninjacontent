@@ -11,7 +11,7 @@ published: true
 
 ### Beispiel Gallerie
 
-{% gallery 1:images1.gal %}
+{% gallery 1:gallery/images1.gal %}
 
 ### Beispiel Gallerie Markdown
 
