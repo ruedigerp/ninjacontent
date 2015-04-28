@@ -82,9 +82,25 @@ Pi1.png: Raspberry stuff
 
 {% youtube 4tzhyfWHdLo %}
 
+### Soundcloud video
+
+{% includecode 9:examples/soundcloud.code %}
+
+*Ergebnis:*
+
+{% soundcloud 189542558 %}
+
+### Vimeo video
+
+{% includecode 10:examples/vimeo.code %}
+
+*Ergebnis:*
+
+{% vimeo 10318472 %}
+
 ### Links
 
-{% includecode 9:examples/links.code %}
+{% includecode 11:examples/links.code %}
 
 *Ergebnis:*
 
