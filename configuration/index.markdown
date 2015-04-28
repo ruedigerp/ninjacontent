@@ -17,11 +17,11 @@ Das ContentNinja Konfigurationsdatei heisst: ninja.config.
     remoteurl = http://www.example.com
     localurl = http://localhost
     
-    site.title = Page Title
-    site.author = John Smith
-    site.email = mail@example.com
-    post.title post.content
-    site.url = http://www.example.com
+		sitelogo = /images/sitelogo.png
+    sitetitle = Page Title
+    siteauthor = John Smith
+    siteemail = mail@example.com
+    siteurl = http://www.example.com
     
     default_index = source/index.markdown
     comtec = 1
@@ -98,37 +98,37 @@ Template:
 
 ### site.author 
 
-    site.author = John Smith
+    siteauthor = John Smith
 
 Setzt den Author im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
-    {% site.author %}
+    {% siteauthor %}
 
 ### site.email
 
-    site.email = mail@example.com
+    siteemail = mail@example.com
 
 Setzt die E-Mailadresse im Kopfbereich der Internetseite. Kann im Template ersetzt werden mit: 
 
 Template: 
 
-    {% site.email %}
+    {% siteemail %}
 
 ### post.title post.content
 
 Unbenutzt, wird von der Blog-Engine benutzt
 
-### site.url 
+### siteurl 
 
-    site.url = http://www.example.com
+    siteurl = http://www.example.com
 
 Setzt die Seiten URL in den Sietenkopf und kann im Template setzte werden mit: 
 
 Template: 
 
-    {% site.url %}
+    {% siteurl %}
 
 ### default_index 
 
