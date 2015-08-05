@@ -1,5 +1,5 @@
 ---
-layout: jasonlong
+layout: default
 title: "ContentNinja"
 date: 2015-04-11 00:00:00
 comtec: 20115-04-11
